@@ -14,9 +14,7 @@ public class Exercise4 {
                 {41, 42, 43, 44, 45, 46, 47, 48}
                 };
         for (int i=0;i<arr.length;i++){
-            int temp=arr[i][1];
-            arr[i][1]=arr[i][4];
-            arr[i][4]=temp;
+            arr[i][4]=arr[i][1];
         }
         for (int [] a:arr){
             System.out.println(Arrays.toString(a));
