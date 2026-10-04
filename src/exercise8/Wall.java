@@ -6,7 +6,7 @@ public class Wall {
     public Wall(){
 
     }
-    public Wall(double h,double w){
+    public Wall(double w,double h){
         if (h<0) this.Height=0;
         else this.Height=h;
         if (w<0) this.Width=0;
